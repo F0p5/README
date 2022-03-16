@@ -66,4 +66,3 @@ api = tp.API(auth)
 tweet = ("Turn the Kettle on now please ")
 api.update_status(status=tweet)
 
-![image](https://user-images.githubusercontent.com/92021768/158611001-a2b570da-3c6b-4767-b3ec-8c41525bb132.png)
