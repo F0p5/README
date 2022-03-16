@@ -1,10 +1,10 @@
 # README
-KettleBot 
+# Import the necessary modules
 import os
 import tweepy as tp
 from time import sleep
 
-
+# This function Turns the kettle on and off
 def switch(x):
     # x = True for "on" and x = False for "off"
     try:
@@ -23,7 +23,7 @@ def switch(x):
         else:
             print("OFF")
 
-
+# These keys are what connect the Bot to the kettle which allows to turn on whenever it tweets
     consumer_key = 'HlQycNjwdrnOrDA4lBRQjSJnTy'
     consumer_secret ='YxDYfqyWSI3cW6Jxe8O6hwULxxsetwz5BTCVdw8H2jCCTLwef9'
     access_token = '1435789906878545920-o6ziDp3TKyBXLtl46GBLR63hZBOmK6'
